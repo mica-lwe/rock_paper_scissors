@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+}
+
+h1 {
+    margin-top: 100px;
+    font-family:monospace, sans-serif;
+    font-size: 60px;
+    color: transparent;
+    -webkit-text-stroke: 3.5px rgb(1, 1, 2);
+}
+
+body {
+    background: linear-gradient( 90deg, rgb(227, 146, 238), rgb(110, 241, 221));
+}
+
+.button {
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: monospace,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient( rgb(247, 100, 92), rgb(54, 185, 54), rgb(49, 49, 233) );
+    margin: 20px;
+}
+
+.button:hover{
+    transform: scale(1.5);
+    
+}
+
+#card {
+    border-style: groove;
+    border-color: black;
+    background-color: azure;
+    border-radius: 30px;
+    margin: 100px;
+    font-family:monospace,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
